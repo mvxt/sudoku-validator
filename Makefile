@@ -9,7 +9,7 @@ JFLAGS = -g
 	$(JC) $(JFLAGS) $*.java
 
 CLASSES = \
-  PrintTree.java
+  Sudoku.java
 
 default: classes
 classes: $(CLASSES:.java=.class)
