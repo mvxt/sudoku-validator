@@ -29,5 +29,4 @@ $ java SudokuValidator
 ```
 
 ## Overview of Solution(s)
-One implementation could be to iterate through all rows, then all columns, then each of the squares to check for 1-9 uniqueness. If we assume for N to be the number of rows and columns, then this runtime would be O(n^2) complexity. This naive implementation can be seen on commit [e393241](https://github.com/mvxt/sudoku-validator/commit/e3932417992cc80cd390f880b4f3f0fae1bc7b5e This naive implementation can be seen on commit [e393241](https://github.com/mvxt/sudoku-validator/commit/e3932417992cc80cd390f880b4f3f0fae1bc7b5e).
-
+One implementation could be to iterate through all rows, then all columns, then each of the squares to check for 1-9 uniqueness. If we assume for N to be the number of rows and columns, then this runtime would be O(n^2) complexity. This naive implementation can be seen on commit [e393241](https://github.com/mvxt/sudoku-validator/commit/e3932417992cc80cd390f880b4f3f0fae1bc7b5e).
